@@ -1,4 +1,3 @@
-# egen
 # Steps to run the application
 1. Install Maven
 2. Clone the repository and go to the orderservice folder
@@ -13,6 +12,7 @@
 Post Api:  This will create the order
 
 http://localhost:8081/order/
+```
 {
   "cutomerId": 123123,
   "subtotal": 1,
@@ -49,11 +49,12 @@ http://localhost:8081/order/
   "status": "Created",
   "deliveryMethod": "curbsideDelivery"
 }
-
+```
 Put Api: This will update the existing ordere
 
 http://localhost:8081/order/
 
+```
 {
     "id": 1,
     "cutomerId": 12345,
@@ -100,6 +101,7 @@ http://localhost:8081/order/
     "status": "Created",
     "deliveryMethod": "curbsideDelivery"
 }
+```
 
 GET API: To retrive the order
 
