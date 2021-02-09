@@ -3,8 +3,10 @@
 2. Clone the repository and go to the orderservice folder
 3. run the  below commands in terminal to run the project
 
+```
  mvn package docker:build 
  docker run -p 8080:8080  order-servcie/orderservice
+ ```
 
 
 4. Once the application gets up and running use the postman to run the below apis:
